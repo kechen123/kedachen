@@ -1,0 +1,47 @@
+.c_content{
+  position: relative;
+  margin: 200px auto;
+  display: -webkit-flex; /* Safari */
+  flex-wrap:wrap;
+  justify-content:space-between;
+  max-width: 1100px;
+  .by{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    color: #FFF;
+    font-size: 38px;
+    text-align: center;
+  }
+  .c_item{
+    width: 50%;
+    color: #FFF;
+  }
+  img{
+    width: 300px;
+    height: auto;
+  }
+  .mail{
+    line-height: 400px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+  }
+  .mail:hover{
+    color: #008eff;
+    border-bottom: 1px solid #008eff;
+  }
+}
+@media print, screen and (max-width: 48em) {
+  .c_content{
+    width: 100%;
+    overflow: auto;
+    .c_item{
+      width: 100%;
+    }
+  }
+
+}
