@@ -1,6 +1,6 @@
-# vue-test
+# 个人网站
 
-> A Vue.js project
+> [预览](http://kedachen.com)
 
 ## Build Setup
 
