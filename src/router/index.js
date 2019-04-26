@@ -5,6 +5,7 @@ import index from '@/pages/index'
 import blog from '@/pages/blog'
 import music from '@/pages/163'
 import contact from '@/pages/contact'
+import markedown from '@/pages/markedown'
 
 Vue.use(Router)
 
@@ -31,5 +32,10 @@ export default new Router({
       name: 'contact',
       component: contact
     },
+    {
+      path:'/markedown',
+      name:'markedown',
+      component:markedown
+    }
   ]
 })

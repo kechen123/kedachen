@@ -9,7 +9,11 @@ import httpindex from './http/index'
 import c_title from './components/title.vue'
 import bg_url from './components/bg.vue'
 import storage from './common/cookie.js'
+import mavonEditor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+
 //将常用工具方法扩展成Vue实例
+Vue.use(mavonEditor)
 Vue.prototype.$storage=storage;
 Vue.use(httpindex)
 Vue.use(Vuex)
